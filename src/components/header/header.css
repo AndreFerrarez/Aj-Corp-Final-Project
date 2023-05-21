@@ -43,7 +43,7 @@
 .header-links-container a:hover{
     opacity: 0.7s; 
     transition: font-size 0.4s;
-    font-size: 1.359em;
+    font-size: 1.319em;
     color: gray;
 }
 
@@ -53,6 +53,15 @@
     .header-links-container{
         flex-direction: column;
         margin: 0 20px 0 auto ; 
+        justify-content: space-around;
+        
+    }
+    .header-links-container a {
+        font-size: 15px;
+    }
+    .header-links-container a:hover{
+        font-size: 1em;
+        
     }
 
     .header-logo {
