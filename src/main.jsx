@@ -8,6 +8,7 @@ import ErrorPage from './routes/ErrorPage.jsx'
 import Contact from './routes/Contact.jsx'
 import Wealth from './routes/Wealth.jsx'
 
+
 const router = createBrowserRouter([
   {
     path: '/',
@@ -38,6 +39,8 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
+    
     <RouterProvider  router={router}/>
+    
   </React.StrictMode>,
 )
