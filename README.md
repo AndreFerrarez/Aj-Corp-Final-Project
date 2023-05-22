@@ -1,3 +1,6 @@
+<img width="311" alt="image" src="https://github.com/AndreFerrarez/Aj-Corp-Final-Project/assets/81924112/4603092a-4a5b-4a29-9f42-e123174545e6">
+
+
 AJ Capital Web Application
 
 This repository contains the source code for the AJ Capital web application,
