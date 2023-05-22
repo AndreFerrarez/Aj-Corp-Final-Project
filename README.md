@@ -1,4 +1,4 @@
-<img width="311" alt="image" src="https://github.com/AndreFerrarez/Aj-Corp-Final-Project/assets/81924112/4603092a-4a5b-4a29-9f42-e123174545e6">
+<img width="566" alt="image" src="https://github.com/AndreFerrarez/Aj-Corp-Final-Project/assets/81924112/b81d4168-9ea3-4661-b70d-b26baf775f0e">
 
 
 AJ Capital Web Application
