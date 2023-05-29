@@ -1,0 +1,24 @@
+.home-container {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 30px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.home-main p{
+    font-size: 17px ;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+.home-main {
+    display: flex;
+    flex-direction: column;
+}
+
+.home-main h1 {
+   text-align: center; 
+}
+
+
+

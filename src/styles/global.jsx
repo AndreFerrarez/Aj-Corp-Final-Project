@@ -1,5 +1,4 @@
 import { createGlobalStyle } from 'styled-components'
-import React from 'react'
 
 
 const GlobalStyle = createGlobalStyle`
@@ -14,7 +13,8 @@ const GlobalStyle = createGlobalStyle`
     height: 100vh;
     backgroung-color: 'green';
     font-family: Arial, Helvetica, sans-serif;
-  }
+  },
+  
 `;
 
 

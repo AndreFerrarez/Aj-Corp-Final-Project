@@ -1,17 +1,24 @@
 import React from 'react';
 import Login from '../components/login/Login';
+import '../styles/Home.css';
 
 
 
 
 function Home() {
   return (
-    <>
-        <h1>Aqui sera a Home</h1>
-        <p>Aqui ficara o logo principal, o que fazemos e espaco para se cadastar</p>
-        <h2>Essa pagina logada do usuario precisa ser PRIVATE , somente sendo possivel apos login</h2>
+    <div className='home-container'>
+      <div className='home-main'>
+        <h1>"A world of possibilities to help you reach your goals."</h1>
+        <p>Our aim is to empower and guide individuals,<br /> 
+        offering them the tools and assistance they need to <br />
+        navigate their journey towards accomplishing their goals <br />
+        in a dynamic and ever-evolving world of possibilities</p>
+      </div>
+      <div className='home-login'>
         <Login />
-    </>
+      </div>
+    </div>
   )
 }
 
