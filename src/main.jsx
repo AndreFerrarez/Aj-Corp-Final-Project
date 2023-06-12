@@ -7,6 +7,8 @@ import Shares from './routes/Shares.jsx'
 import ErrorPage from './routes/ErrorPage.jsx'
 import Contact from './routes/Contact.jsx'
 import Wealth from './routes/Wealth.jsx'
+import Register from './components/users/Register.jsx'
+import Login from './components/login/Login.jsx'
 
 
 const router = createBrowserRouter([
@@ -31,6 +33,10 @@ const router = createBrowserRouter([
         path:"wealth",
         element: <Wealth />
       },
+      {
+        path:"Register",
+        element:<Register />
+      }
     ]
   },
 ]);
