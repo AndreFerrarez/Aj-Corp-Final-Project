@@ -1,5 +1,4 @@
 import { Link } from 'react-router-dom';
-import Empresa from '../../../../aj-capital-react/src/empresas/Empresa';
 import './header.css';
 import logo from './logo.png';
 

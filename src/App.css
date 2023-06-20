@@ -1,0 +1,65 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+}
+
+.principal {
+  width: 900px;
+  height: 640px;
+  padding: 10px;
+  display: flexbox;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+
+.publicarVaga {
+  margin-top: 50px;
+  width: 640px;
+  height: 80%;
+  float: left;
+  box-shadow: 10px 10px 20px black;
+  border: 2px solid darkgray;
+  border-radius: 10px;
+}
+
+.ultimasVagas {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 60px;
+  width: 640px;
+  height: 250px;
+  float: left;
+  box-shadow: 10px 10px 20px black;
+  border: 2px solid darkgray;
+  border-radius: 10px;
+}
+
+.novaConta {
+  border: 5px solid black;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.login {
+  width: 250px;
+  height: 130px;
+  float: right;
+  text-align: center;
+  margin-top: 50px;
+  border-radius: 10px;
+}
+
+.criarConta {
+  width: 250px;
+  height: calc(50% - 145px);
+  height: fit-content;
+  float: right;
+  text-align: center;
+  margin-top: 10px;
+  border-radius: 10px;
+}

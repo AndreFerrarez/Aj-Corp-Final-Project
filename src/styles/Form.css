@@ -1,0 +1,67 @@
+/* form {
+    display: flex;
+    width: fit-content;
+    margin: auto;
+    border-radius: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    padding: 20px;
+    color: white;
+    box-sizing: border-box;
+  }
+  
+
+  
+  input[type="text"],
+  input[type="number"],
+  textarea {
+    height: 30px;
+    width: 400px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 10px;
+    
+  }
+
+  .inputs {
+    width: fit-content;
+  }
+  
+  textarea {
+    height: 100px;
+  }
+  
+  input[type="radio"] {
+    height: 10px;
+  }
+  .radios {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   }
+
+  
+  
+  button {
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #eaeaea;
+  }
+
+
+  @media screen and (max-width: 960px) { 
+    form {
+        width: fit-content;
+    }
+
+
+  } */

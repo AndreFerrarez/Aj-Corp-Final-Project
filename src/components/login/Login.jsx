@@ -1,10 +1,11 @@
-import React from 'react';
-import { useState } from 'react';
-import './Login.css';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import { auth } from '../../infra/firebase';
 import Logout from '../users/Logout';
+import { useAuthState } from 'react-firebase-hooks/auth';
+import Users from '../users/Users';
+
 
 
 export default function Login() {
@@ -12,25 +13,40 @@ export default function Login() {
   const [password, setPassword] = useState('');
   const [signInWithEmailAndPassword, user, loading, error] = useSignInWithEmailAndPassword(auth);
   const username = email.split('@')[0];
+  
+ 
+  //////////////////////////////////////////////
+  // useEffect(() => {
+  //   setPersistence(auth, browserSessionPersistence)
+  //     .then(() => {
+  //       // A persistência de sessão foi ativada
+  //     })
+  //     .catch((error) => {
+  //       console.log(error);
+  //     });
+  // }, []);
+  /////////////////////////////////////////////
+ 
 
-  if (error) {
-    return (
-      <div>
-        <p>User not found...</p>
-      </div>
-    );
-  }
+  // if (error) {
+  //   return (
+  //     <div>
+  //       <p>User not found...</p>
+  //     </div>
+  //   );
+  // }
 
-  if (loading) {
-    return <p>Loading...</p>;
-  }
+  // if (loading) {
+  //   return <p>Loading...</p>;
+  // }
 
-  if (user) {
-    return (
-      <>
-        <Logout username={username} />
-      </>
-    );
+  // if (user) {
+  //   return (
+  //     <>
+  //     <Logout username={username} />
+  //     <Users />
+  //     </>
+  //   );
   }
 
   return (

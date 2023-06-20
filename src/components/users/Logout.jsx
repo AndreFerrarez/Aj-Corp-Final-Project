@@ -25,6 +25,7 @@ const Logout = ({ username }) => {
       <button className='button' onClick={handleLogout}>
         LOGOUT
       </button>
+      
     </div>
   );
 };

@@ -43,7 +43,7 @@
 .header-links-container a:hover{
     opacity: 0.7s; 
     transition: font-size 0.4s;
-    font-size: 1.319em;
+    font-size: 1.6em;
     color: gray;
 }
 
