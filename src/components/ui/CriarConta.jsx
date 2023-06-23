@@ -7,17 +7,16 @@ export default function CriarConta() {
                 <tbody>
                     <tr>
                         <td>
-                            <p align="center"><b>Not a member?</b></p>
+                            <p align="center"><b>Novo por aqui?</b></p>
                             <p align="center">
-                                <Link to={"/criarConta"}>Register here</Link>
+                            <Link to={"/criarConta"}>Clique para se registrar</Link>
                             </p>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <p align="end">
-                                ....Partner with Us for a Brighter Future.....
-                            </p>
+                            <p align="center"><b>"Seja nosso parceiro em busca de um futuro promissor"</b></p>
+                            
                         </td>
                     </tr>
                 </tbody>

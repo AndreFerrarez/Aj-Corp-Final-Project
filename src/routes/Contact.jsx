@@ -5,10 +5,10 @@ import '../styles/Home.css';
 const Contact = () => {
   return (
     <div className='box contact'>
-      <h2>Contact Information</h2>
-      <p>Address: 123 Test Street, Sample City, Fake Country</p>
-      <p>Phone Number: +1 (555) 123-4567</p>
-      <p>Email: info@ajcapitaltest.com</p>
+      <h2>Informacoes para contato</h2>
+      <p>Endereço: Rua Fictícia, 123, Bairro Imaginário, Cidade Fictícia</p>
+      <p>Telefone: +55 (001) 1111-1111</p>
+      <p>E-mail: info@ajcapitaltest.com</p>
     </div>
   )
 }

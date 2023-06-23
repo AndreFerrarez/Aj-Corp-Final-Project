@@ -1,3 +1,4 @@
+
 import React, { useEffect, useState } from "react";
 import { criarConta } from "../../infra/Usuarios";
 
@@ -19,7 +20,7 @@ export default function NovaConta({usuario, setUsuario}) {
     return (
         <div className="principal">
             <div className="novaConta">
-                <h3 align="center">Novo Registro</h3>
+                <h3 align="center">Nova Conta</h3>
                 <table>
                     <tbody>
                         <tr>
@@ -43,7 +44,7 @@ export default function NovaConta({usuario, setUsuario}) {
                         <tr>
                             <td>
                                 <label htmlFor="fone">Telefone:</label>
-                            </td> 
+                            </td>
                             <td>
                                 <input type="text" name="fone"
                                     value={usuario.fone} onChange={handleChange} />
@@ -64,9 +65,9 @@ export default function NovaConta({usuario, setUsuario}) {
                             </td>
                             <td>
                                 <input type="radio" name="tipo"
-                                    value="Empresa" onChange={handleChange} /> Analista
+                                    value="Empresa" onChange={handleChange} /> Empresa
                                 <input type="radio" name="tipo"
-                                    value="Candidato" onChange={handleChange} /> Investidor
+                                    value="Candidato" onChange={handleChange} /> Candidato
                             </td>
                         </tr>
                         <tr>

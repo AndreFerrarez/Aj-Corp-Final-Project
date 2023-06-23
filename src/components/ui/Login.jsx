@@ -1,5 +1,5 @@
 import { logarSistema } from "../../infra/Usuarios";
-import "../../App.css"
+
 
 export default function Login({usuario, setUsuario, setErro}) {
 
@@ -18,7 +18,7 @@ export default function Login({usuario, setUsuario, setErro}) {
 
     return (        
         <div className="login">
-            <h3>Login</h3>
+            <h3>Acesso ao Sistema</h3>
             <form>
                 <table border={0} width={"100%"}>
                     <tbody>
@@ -32,7 +32,7 @@ export default function Login({usuario, setUsuario, setErro}) {
                         </tr>
                         <tr>
                             <td>
-                                <label htmlFor="senha">Password:</label>
+                                <label htmlFor="senha">Senha:</label>
                             </td>
                             <td>
                                 <input type="password" name="senha" value={usuario.senha} onChange={handleChange} />
@@ -40,7 +40,7 @@ export default function Login({usuario, setUsuario, setErro}) {
                         </tr>
                         <tr>
                             <td colSpan={2} align="center">
-                                <input type="submit" value="Login" 
+                                <input type="submit" value="Entrar" 
                                 disabled={usuario.email.length === 0 || usuario.senha.length === 0}
                                 onClick={handleLogin} />
                             </td>
