@@ -12,10 +12,10 @@ export default function Empresa({ usuario, setUsuario }) {
     });
     return (
         <div className="principal">
-            <h2>Welcome, {usuario.nome}</h2>
-            <h3>Expert</h3>
+            <h2>Bem Vindo, {usuario.nome}</h2>
+            <h3>Empresa</h3>
             <nav>
-                <Link to={`publicar/${usuario.id}`}>Shares Registratiton</Link>
+                <Link to={`publicar/${usuario.id}`}>Publicar Vaga</Link>
             </nav>
             <Outlet />
         </div>

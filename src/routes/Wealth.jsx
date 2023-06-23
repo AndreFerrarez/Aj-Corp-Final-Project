@@ -4,27 +4,20 @@ import '../styles/Home.css';
 const Wealth = () => {
   return (
     <div className='box'>
-      <h2>Welcome to AJ Capital Wealth Management:<br/> Performance to go further</h2>
-      <p> At AJ Capital, we understand that everyone has dreams and aspirations they want to pursue. 
-      Whether it's buying a dream home, starting a business, or enjoying a worry-free retirement, 
-      we believe that financial security plays a pivotal role in turning those dreams into reality.
-      That's why we offer comprehensive wealth management services tailored to your unique needs.</p>
-      <h3>What is Wealth Management?</h3>
-      <p>Wealth management encompasses a holistic approach to financial planning and investment management. 
-      It goes beyond simple asset accumulation and focuses on helping individuals, families, and businesses optimize their financial resources. 
-      By taking into account your goals, risk tolerance, and timeline, our team of experienced 
-      wealth managers can craft a personalized roadmap to help you achieve your dreams.</p>
-      <h3>How We Can Help You</h3>
+      <h2>Pontos Importantes para Comprar Produtos que Causarão o Efeito Desejado</h2><br/>
+      
+      <h3>Identifique claramente o problema:</h3>
+      <p>Antes de iniciar qualquer compra, é fundamental entender e definir claramente o problema que você deseja resolver. 
+      Compreender suas necessidades e objetivos ajudará a direcionar suas escolhas de produtos de maneira mais precisa.</p>
+      <h3>Pesquise e compare opções</h3>
       <ul>
-        <li>Goal Setting and Planning: We work closely with you to understand your dreams and aspirations. By setting clear and attainable financial goals, we create a roadmap to guide your wealth management journey. Whether it's planning for your children's education, saving for a comfortable retirement, or maximizing your wealth, we ensure that your aspirations are at the forefront of our strategies.</li><br/>
-        <li>Investment Management: Our team of skilled professionals harnesses their expertise to design investment portfolios tailored to your specific objectives. We consider a range of asset classes, risk factors, and market trends to construct diversified portfolios that can weather market fluctuations while aiming to achieve attractive returns. Through rigorous analysis, continuous monitoring, and proactive adjustments, we strive to optimize your investments and help them grow over time.</li><br/>
-        <li>Risk Management: Wealth preservation is a critical component of our services. We help you identify and manage risks that may impact your financial well-being. By assessing your risk tolerance, we develop strategies that strike a balance between growth and protection. From insurance planning to estate planning, we ensure that your wealth is safeguarded for future generations.</li><br/>
-        <li>Tax Planning: Efficient tax planning is vital for wealth preservation and maximizing returns. Our team of experts analyzes your financial situation and develops strategies to minimize your tax liability within the framework of applicable tax laws. By identifying tax-efficient investment opportunities and optimizing your financial structure, we aim to help you retain more of your hard-earned wealth.</li><br/>
-        <li>Ongoing Monitoring and Adjustments: We understand that life is dynamic, and your financial goals may evolve over time. Our wealth managers provide ongoing monitoring and regular performance reviews to ensure that your investment strategies remain aligned with your objectives. We stay informed about market trends and regulatory changes, proactively adjusting your portfolio to seize opportunities and mitigate risks.</li><br/>
+        <li>Realize uma pesquisa abrangente para identificar as opções disponíveis no mercado que se relacionem diretamente com o problema que você deseja resolver. Compare diferentes produtos, marcas, recursos e especificações técnicas para tomar uma decisão informada.</li><br/>
+        <li>Verifique a reputação do fabricante ou fornecedor: Ao comprar produtos, é importante considerar a reputação do fabricante ou fornecedor. Procure por avaliações, comentários e opiniões de outros clientes para ter uma noção da qualidade e confiabilidade do produto.</li><br/>
+        <li>Avalie o custo-benefício: Além do preço, leve em consideração o valor que o produto proporcionará em relação ao problema que você deseja resolver. Avalie a durabilidade, a eficácia e os possíveis benefícios adicionais que o produto pode oferecer, equilibrando-os com o investimento necessário.</li><br/>
+        <li>Considere a opinião de especialistas: Busque a orientação de profissionais ou especialistas na área relacionada ao produto que você deseja comprar. Eles podem fornecer informações valiosas, recomendações e ajudar a tomar uma decisão mais embasada, considerando suas necessidades específicas.</li><br/>
       </ul>
-      <h2>Partner with Us for a Brighter Future</h2>
-      <p>At <strong>AJ Capital Wealth Management </strong>, our mission is to empower you to achieve your dreams through sound wealth management strategies. We believe that with the right guidance, planning, and expertise, financial freedom is within your reach. Let us be your trusted partner on this journey, working together to secure your financial future and turn your dreams into reality.</p>
-      <span>Contact us today to schedule a consultation and take the first step towards a brighter future.<br/> Together, we can navigate the complexities of wealth management and unlock the path to your dreams.</span>
+      
+      <span>Lembrando que cada situação pode ser única, então é importante adaptar essas diretrizes às suas circunstâncias particulares.</span>
     </div>
   )
 }

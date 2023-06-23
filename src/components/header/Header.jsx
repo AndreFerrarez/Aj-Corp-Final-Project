@@ -11,10 +11,10 @@ export default function Header() {
           <img src={logo} alt='logo'/>
         </div>
         <div className='header-links-container'>
-          <Link to="/">Home</Link>
-          <Link to="Shares">Shares</Link>
-          <Link to="Wealth">Wealth Management</Link>
-          <Link to="Contact">Contact</Link>
+          <Link to="/">Inicio</Link>
+          <Link to="Shares">Fornecedores</Link>
+          <Link to="Wealth">Produtos</Link>
+          <Link to="Contact">Contato</Link>
         </div>
       
 

@@ -1,13 +1,10 @@
 export default function UltimasVagas() {
     return (
         <div className="ultimasVagas" >
-            <h3 align="center">Welcome to AJ Capital.</h3>
+            <h3 align="center">AJ Capital.</h3>
             <td>
-                <p align="left" style={{padding: 20}} >
-                    At AJ Capital, we understand that everyone has dreams and aspirations they want to pursue.
-                    Whether it's buying a dream home, starting a business, or enjoying a worry-free retirement,
-                    we believe that financial security plays a pivotal role in turning those dreams into reality.
-                    That's why we offer comprehensive wealth management services tailored to your unique needs.
+                <p align="left" style={{padding: 20, textAlign: "center"}} >
+                "Prepare-se para uma jornada de sucesso financeiro com AJ Capital,<br/> a plataforma que irá transformar sua vida financeira de forma inteligente e inovadora.
                 </p>
             </td>
         </div>
